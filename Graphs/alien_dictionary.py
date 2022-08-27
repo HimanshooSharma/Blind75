@@ -19,7 +19,7 @@ class Solution:
             for j in range(minLength):
                 if w1[j] != w2[j]:
                     adj_list[w1[j]].add(w2[j])
-                    break;
+                    break
                     
             
         visited = {} # map to False if visited and True if in current path
